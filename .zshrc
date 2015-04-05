@@ -63,14 +63,14 @@ export PATH="$PATH:/bin:/usr/sbin:$HOME/.local/bin"
 export PATH="$PATH:$HOME/.local/lib/python2.7/site-packages"
 
 # rbenv
-export PATH="$HOME/.rbenv/bin:$PATH"
-eval "$(rbenv init -)"
+#export PATH="$HOME/.rbenv/bin:$PATH"
+#eval "$(rbenv init -)"
 
-function rbenv_prompt_info() {
-  local ruby_version
-  ruby_version=$(rbenv version 2> /dev/null) || return
-  echo "‹$ruby_version" | sed 's/[ \t].*$/›/'
-}
+#function rbenv_prompt_info() {
+#  local ruby_version
+#  ruby_version=$(rbenv version 2> /dev/null) || return
+#  echo "‹$ruby_version" | sed 's/[ \t].*$/›/'
+#}
 
 # pyenv
 export PYENV_ROOT="$HOME/.pyenv"
@@ -93,4 +93,4 @@ alias gdf="git diff"
 alias gam="git commit -am"
 
 # Get local config
-source ~/.zshrc.local
+#source ~/.zshrc.local
