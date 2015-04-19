@@ -73,7 +73,7 @@ export PATH="$PATH:$HOME/.local/lib/python2.7/site-packages"
 #}
 
 # nvm
-source ~/.nvm/nvm.sh
+#source ~/.nvm/nvm.sh
 
 # pyenv
 export PYENV_ROOT="$HOME/.pyenv"
