@@ -64,7 +64,7 @@ export PATH="$PATH:$HOME/.local/lib/python2.7/site-packages"
 
 # rbenv
 #export PATH="$HOME/.rbenv/bin:$PATH"
-#eval "$(rbenv init -)"
+eval "$(rbenv init -)"
 
 #function rbenv_prompt_info() {
 #  local ruby_version
